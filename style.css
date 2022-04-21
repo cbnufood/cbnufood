@@ -24,7 +24,10 @@ body {
     border: 1px solid gray;
 }
 
-
+#top-tab-bar {
+    display: flex;
+    justify-content: center;
+}
 
 .panel.with-nav-tabs .panel-heading{
     padding: 5px 5px 0 5px;
