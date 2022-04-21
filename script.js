@@ -28,6 +28,6 @@ function updateUI(food_data , tab_name){
     const card_divs = $(`#${tab_name} > div`)
     food_data.forEach((data, index) => {
         $(card_divs[index]).find('.card-title').text(data)
-        $(card_divs[index]).find('img').attr('src',`./img/${data}.jpg`);
+        $(card_divs[index]).find('img').attr('src',`/img/${data}.jpg`);
     })
 }
