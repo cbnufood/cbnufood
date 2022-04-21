@@ -1,5 +1,5 @@
-// const SERVER = 'http://ubuntu.sovanreach.com:10025';
-const SERVER = 'http://localhost:9001';
+const SERVER = 'http://ubuntu.sovanreach.com:10025';
+// const SERVER = 'http://localhost:9001';
 
 const API_URL = `${SERVER}/api/restaurant`;
 $(document).ready(_ => {
